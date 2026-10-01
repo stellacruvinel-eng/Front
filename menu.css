@@ -1,0 +1,51 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background-image: url(img/carro.png);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #007483; 
+    padding: 12px;
+}
+.nav-menu img{
+    height: 80px;
+    border-radius: 200px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 800;
+}
+a:hover{
+color: black;
+}
+.lista-menu{
+list-style: none;
+padding: 0px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 80%;
+}
+section{
+
+    
+    width: 500px;
+    height: 600px;
+    background-color:#007483a2;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 14px;
+    margin: 50px auto;
+}
+
