@@ -60,7 +60,7 @@ section h1{
 }
 
 body{
-    background-image: url(img/mecanico.jpg);
+    background-image: url(img/carro2.jpg);
     background-size: 100%;
 }
 
@@ -85,4 +85,34 @@ body{
     height: 30px;
     border: none;
     border-radius: 8px;
+}
+
+h2 {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    background-color: #445863;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+    background-color: #e6f3f4;
 }

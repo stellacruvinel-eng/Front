@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CADASTRO DE AGENDAMENTO</title>
+    <title>CADASTRO  DE AGENDAMENTOS</title>
     <link rel="stylesheet" href="cadastroagendamento.css">
 </head>
 <body>
@@ -13,10 +13,10 @@
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeeZ23lfDIJtoRq5UAkRqBigb830Ugd1dQqAUIZ8f07A&s=10" alt="Logo da Oficina Mecânica"/>
                 <ul class="lista-menu">
                     <li><a href="menu.html">MENU</a></li>
-                    <li><a href="cadastrocliente.html">CADASTRAR CLIENTE</a></li>
-                    <li><a href="cadastroveiculo.html">CADASTRAR VEICULO</a></li>
+                    <li><a href="cadastroveiculo.html">CADASTRAR VEÍCULO</a></li>
+                    <li><a href="cadastroagendamento.html">CADASTRAR CLIENTES</a></li>
                     <li><a href="listacliente.html">LISTAGEM CLIENTES</a></li>
-                    <li><a href="listagemagendamento.html">LISTAGEM AGENDAMENTOS</a></li>
+                    <li><a href="listagemagendamentos.html">LISTAGEM AGENDAMENTOS</a></li>
                 </ul>
                 <div class="usuario">
                 <a href="index.html">Sair</a>
@@ -25,6 +25,18 @@
             </div>
             </nav>
         </header>
+
+        
+        <form>
+            <div class="formulario">
+                <h1>CADASTRAR AGENDAMENTO</h1>
+                <label for="Data">Data: <input type="text" id="data" /></label>
+                <label for="serviços">serviços: <input type="text" id="serviços" /></label>
+                <label for="placa">Placa: <input type="text" id="placa" /></label>
+
+                <button type="submit">Cadastrar</button>
+            </div>
+        </form>
     </main>
 </body>
 </html>
