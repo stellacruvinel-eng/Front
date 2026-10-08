@@ -1,52 +1,89 @@
 *{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-}
-body{
-    background-image: url(img/oficinamec.png);
-background-repeat: no-repeat;
-background-size: cover;
-
-
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 header{
-
-    background-color: #007483;
-    width: 100%;
-    height: 150px;
-    padding: 24px;
     display: flex;
-    justify-content:center;
-    align-items: center;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 180%;
+    justify-content: center;
+    margin: 10px;
+    padding: 30px;
+    height: 100px;
+    border: 3px solid #3a4a53;
+    background-color: #445863;
+    color: #e0e0e0;
+    font-size: 30px;
+    border-radius: 14px;
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 70px;
+    line-height: 3;
+}
+
+body{
+    background-color: #ffffff;
+    background-image: url(img/chave.jpg);
+    background-size: 50%;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #445863;
+    color: white;
+    border: 12px;
+    box-shadow: 0 4px 0 #3a4a53;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    height: 60px;
+    width: 80px;
+    margin: 30px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: #303d44;
+    color: #e0e0e0;
+}
+
 div{
     width: 500px;
     height: 600px;
-    background-color:#007483a2;
+    background-color: #668292d8;
     align-items: center;
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     border-radius: 14px;
 }
-form{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    padding: 70px;
-    line-height: 7;
 
-}
-button{
-    height: 50px;
-    width: 80px;
-    background-color: #007483;
-    border: #007483;
-    border-radius: 12px;
+input{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 10px;
+    line-height: 1.5;
 }
